@@ -1,4 +1,3 @@
-"use strict";
 // #gsKLAsNWM
 // Array.prototype.customForEach = function(callback):void{
 //     for(let i:number = 0; i < this.length; i++){

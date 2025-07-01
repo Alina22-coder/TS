@@ -1,13 +1,12 @@
-// #XjJuucOMR0
-function User (id, name, surname, email, phone) {
+"use strict";
+function User(id, name, surname, email, phone) {
     this.id = id;
     this.name = name;
     this.surname = surname;
     this.email = email;
     this.phone = phone;
 }
-
-const users = [
+const usersNew = [
     new User(1, 'Anna', 'Ivanova', 'anna1@gmail.com', '0970000001'),
     new User(2, 'Bohdan', 'Petrov', 'bohdan2@gmail.com', '0970000002'),
     new User(3, 'Kateryna', 'Shevchenko', 'katya3@gmail.com', '0970000003'),
@@ -19,14 +18,10 @@ const users = [
     new User(9, 'Iryna', 'Hrytsenko', 'iryna9@gmail.com', '0970000009'),
     new User(10, 'Vladyslav', 'Bondar', 'vlad10@gmail.com', '0970000010')
 ];
-
-console.log(users);
-
-
+console.log(usersNew);
 // #2ikXsE2WiKZ
-const filterArr = users.filter((user) => user.id % 2 === 0);
+const filterArr = usersNew.filter((user) => user.id % 2 === 0);
 console.log(filterArr);
-
 // #pOeHKct
-const sortArr = users.sort ((user1, user2) => user1.id - user2.id);
+const sortArr = usersNew.sort((user1, user2) => user1.id - user2.id);
 console.log(sortArr);

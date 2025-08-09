@@ -1,5 +1,5 @@
 // #67kfznmiMl
-let absd;
+let absd:any[];
 absd = [123, 456, 789, "Alina", 'Hello', 1098, "Вітаю", true, 0, false];
 console.log(absd[0]);
 console.log(absd[1]);

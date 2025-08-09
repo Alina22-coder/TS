@@ -1,7 +1,7 @@
 // #coYydZuaeEB
 type Weather = {day:string, morningTemp:number, dayTemp:number, eveningTemp:number};
 
-let weather:Weather[] =[
+const weather:Weather[] =[
     {day: 'Monday', morningTemp:5, dayTemp:17, eveningTemp:9},
     {day: 'Tuesday', morningTemp:10, dayTemp:15, eveningTemp:10},
     {day: 'Wednesday', morningTemp:8, dayTemp:13, eveningTemp:7},

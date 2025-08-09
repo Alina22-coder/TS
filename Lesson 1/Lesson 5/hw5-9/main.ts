@@ -1,5 +1,5 @@
 // #bovDJDTIjt
-let arrFunctionTs:(arr:{id:number, name:string, age:number}[])=>void  = (arr:{id:number, name:string, age:number}[]):void => {
+const arrFunctionTs:(arr:{id:number, name:string, age:number}[])=>void  = (arr:{id:number, name:string, age:number}[]):void => {
     for (let i:number =0; i < arr.length; i++) {
         document.write(`<div>${arr[i].id}, ${arr[i].name}, ${arr[i].age}</div>`);
     }

@@ -1,7 +1,7 @@
 // #Hdjws7E
-type Product = {title:string, price:number, image:string};
+type ProductType = {title:string, price:number, image:string};
 
-let products: Product[] = [
+let products: ProductType[] = [
     {
         title: 'milk',
         price: 22,

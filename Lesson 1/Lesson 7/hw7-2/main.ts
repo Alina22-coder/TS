@@ -1,14 +1,13 @@
 // #nkMXISv
-type ClientType = {
-    id:number,
-    name:string,
-    surname:string,
-    email:string,
-    phone:string,
-    order:string
-}
+class Client {
+    id:number;
+    name:string;
+    surname:string;
+    email:string;
+    phone:string;
+    order:string[];
 
-function Client (this: any, id:number, name:string, surname:string, email:string, phone:string, order:string):void {
+    constructor (id:number, name:string, surname:string, email:string, phone:string, order:string[]) {
     this.id = id;
     this.name = name;
     this.surname = surname;
@@ -16,8 +15,9 @@ function Client (this: any, id:number, name:string, surname:string, email:string
     this.phone = phone;
     this.order = order;
 }
+}
 
-const clients:ClientType[] = [
+const clients:Client[] = [
     new (Client as any)(1, 'Anna', 'Ivanova', 'anna1@gmail.com', '0970000001', ['aa', 'cc', 'dd']),
     new (Client as any)(2, 'Bohdan', 'Petrov', 'bohdan2@gmail.com', '0970000002', ['bb', 'ff', 'ss', 'tt']),
     new (Client as any)(3, 'Kateryna', 'Shevchenko', 'katya3@gmail.com', '0970000003', ['yy', 'cc', 'ss', 'rr', 'oo', 'pp']),
@@ -32,5 +32,5 @@ const clients:ClientType[] = [
 console.log(clients);
 
 // #8abtVjRv
-const sortClients:ClientType[] = clients.sort((client1:ClientType, client2:ClientType):number => client1.order.length - client2.order.length);
+const sortClients:Client[] = clients.sort((client1:Client, client2:Client):number => client1.order.length - client2.order.length);
 console.log(sortClients);

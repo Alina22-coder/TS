@@ -1,5 +1,5 @@
 // #KzrtqyQ
-const schedule = prompt('Enter the day of the week:') ;
+const schedule : string | null  = prompt('Enter the day of the week:') ;
 
 switch (schedule){
     case 'Monday':

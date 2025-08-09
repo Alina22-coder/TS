@@ -1,5 +1,5 @@
 // #iBvqtjEm
-let xx :string = '';
+let xx :string | number | null | undefined = '';
 
 if (!xx){
     console.log('default');

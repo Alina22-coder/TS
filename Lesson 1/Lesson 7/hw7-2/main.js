@@ -1,11 +1,14 @@
 "use strict";
-function Client(id, name, surname, email, phone, order) {
-    this.id = id;
-    this.name = name;
-    this.surname = surname;
-    this.email = email;
-    this.phone = phone;
-    this.order = order;
+// #nkMXISv
+class Client {
+    constructor(id, name, surname, email, phone, order) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.phone = phone;
+        this.order = order;
+    }
 }
 const clients = [
     new Client(1, 'Anna', 'Ivanova', 'anna1@gmail.com', '0970000001', ['aa', 'cc', 'dd']),

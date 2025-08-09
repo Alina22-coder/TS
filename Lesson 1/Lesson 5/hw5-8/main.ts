@@ -1,5 +1,5 @@
 // #gEFoxMMO
-let arrayFunctionTs:(arr:(string|number|boolean)[])=>void = (arr:(string|number|boolean)[]):void => {
+const arrayFunctionTs:(arr:(string|number|boolean)[])=>void = (arr:(string|number|boolean)[]):void => {
     document.write(`<ul>`);
     for (let i:number = 0; i<arr.length; i++) {
         document.write(`<li>${arr[i]}</li>`);

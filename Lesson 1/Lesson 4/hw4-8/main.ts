@@ -1,5 +1,7 @@
 // #gEFoxMMO
-function arrFunction(arr:(string|number|boolean)[]):void{
+type Primitive = boolean | string | number;
+
+function arrFunction(arr:Primitive[]):void{
     document.write(`<ul>`);
     for(let item:number = 0; item < arr.length; item++){
         document.write(`<li>${arr[item]}</li>`)

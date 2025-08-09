@@ -1,5 +1,5 @@
 // #mkGDenYnNjn
-let exchangeTs:(
+const exchangeTs:(
     sumUAH:number,
     currencyValues:{currency:string,value:number}[],
     exchangeCurrency:string)=>number|undefined  =

@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+
+.recipes{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.recipe-info{
+    margin-bottom: 100px;
+}
+
+img{
+    width: 100%;
+    margin: 30px auto;
+}
+
+.ingredients{
+    padding-left: 100px;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+
+.instructions{
+    text-align: justify;
+    text-transform: none;
+}
+

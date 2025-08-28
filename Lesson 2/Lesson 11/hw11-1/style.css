@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.carts{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.cart{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.productInfo{
+    font-size: 16px;
+    padding-left: 50px;
+    text-transform: none;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
